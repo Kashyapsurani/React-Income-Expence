@@ -1,0 +1,145 @@
+.page{
+    height: 80vh;
+    width: 400px;
+    color: black;
+}
+
+.incomeExpence{
+    border: 1px solid rgb(255, 0, 0);
+    height: 26.50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}   
+
+.flex{
+    border: 1px solid rgb(255, 0, 0);
+    height: 26.50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}  
+
+.flexs{
+    height: 6vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.Income{
+    border: 1px solid rgb(255, 0, 0);
+    height: 70%;
+    width: 50%;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.incomeExpence h2 {
+    font-family: 'system-ui';
+    color: #242424;
+}
+
+.Expence{
+    border: 1px solid rgb(255, 0, 0);
+    height: 70%;
+    width: 50%;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.history{
+    border: 1px solid rgb(0, 0, 255);
+    height: 26.50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Incomes{
+    width: 80%;
+    height: 3vh;
+    border: 1px solid #417d7a;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.Expences{
+    width: 80%;
+    height: 3vh;
+    border-radius: 8px;
+    border: 1px solid #417d7a;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.input{
+    border: 1px solid rgb(255, 31, 132);
+    height: 26.50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 600;
+}
+
+.input input , select{
+    width: 70%;
+    height:4vh;
+    background-color: #417d7a;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    border: none;
+
+}
+
+input{
+    text-align: center;
+}
+
+input::placeholder{
+    color: white;
+
+}
+
+.input li{
+    font-size: 1    2px;
+}
+
+.input .button{
+    background-color: #417d7a;
+    color: white    ;
+    border: none;
+    font-size: x-large;
+}
+
+.opsn{
+    border: none;
+    background-color: #417d7a;
+    color: white    ;
+    text-align: center;
+}
+
+option{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
